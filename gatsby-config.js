@@ -8,6 +8,7 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
+    siteTitle: "Matt the Web Dev",
     siteTitleAlt: `Matt Marra - React Developer`,
   },
   plugins: [
@@ -58,4 +59,5 @@ module.exports = {
       },
     },
   ].filter(Boolean),
+
 }
